@@ -305,8 +305,10 @@ footer li a {
     .row {
         display: flex;
         flex-direction: row;
-        column-gap: 45px;
         padding: 20px;
+    }
+    .col-4 {
+        margin: 0 15px;
     }
     .hobbies {
         max-width: 900px;
