@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <script src="script.js"></script>
+    <title>Portofolio</title>
+</head>
+<body>
+    <header>
+    <nav id="sidebar" onclick="togglemenu()" class="mobile">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutsb">About</a></li>
+            <li><a href="#skillssb">Skills</a></li>
+            <li><a href="#hobbiessb">Hobbies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="desktop">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutsb">About</a></li>
+                <li><a href="#skillssb">Skills</a></li>
+                <li><a href="#hobbiessb">Hobbies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="aboutsb" class="intro">
+        <div class="image"><img src="./Images/profile.jpeg.JPG" alt="" width="250px" height="250px"></div>
+        <div class="about">
+            <h3>About Me</h3>
+            <p><span> Hello!! My name is IRSHAD ALI,</span> lives in Bangalore. Basically I have done B.E in Civil Engineering but my interest in coding made me to learn coding.</p>
+            <p>I like to do every work with complete passion and dedication. I am eager to learn new things and also to share my knowledge. I am good at both as an individual and as team player.</p>
+        </div>
+    </div>
+    <div class="middle">
+    <div id="skillssb" class="skills">
+        <h3>My Skills</h3>
+        <li>
+            <h4>HTML5</h4><p>60%</p><span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+            <h4>CSS3</h4><p>40%</p><span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+            <h4>JAVASCRIPT</h4><p>20%</p><span class="bar"><span class="javascript"></span></span>
+        </li>
+    </div>
+    <div id="projects" class="container">
+        <h3>My Projects</h3>
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 100%;">
+                    <img src="./Images/tutorial-page.jpeg.png" class="card-img-top" alt="..." width="150px" height="150px">
+                    <div class="card-body">
+                      <h5 class="card-title">Tutoial Page</h5>
+                      <a href="https://sad-banach-51a06b.netlify.app/" class="btn btn-primary">See Project</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 100%;">
+                    <img src="./Images/Intermediate.jpeg.png" class="card-img-top" alt="..." width="150px" height="150px">
+                    <div class="card-body">
+                      <h5 class="card-title">Intermediate</h5>
+                      <a href="https://elegant-sammet-a0c799.netlify.app/" class="btn btn-primary">See Project</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 100%;">
+                    <img src="./Images/tutorial.jpeg.png" class="card-img-top" alt="..." width="150px" height="150px">
+                    <div class="card-body">
+                      <h5 class="card-title">Tutoial</h5>
+                      <a href="https://quizzical-wright-256303.netlify.app" class="btn btn-primary">See Project</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="hobbiessb" class="hobbies">
+        <h3>My Hobbies</h3>
+        <ul>
+            <li><i class="fa fa-gamepad hobbies-icon" aria-hidden="true"></i> <p>Gaming</p>
+            </li>
+            <li><i class="fa fa-futbol-o hobbies-icon" aria-hidden="true"></i> <p>Cricket</p>
+            </li>
+            <li><i class="fa fa-film hobbies-icon" aria-hidden="true"></i> <p>Movies </p>
+            </li>
+            <li><i class="fa fa-book hobbies-icon book-reader" aria-hidden="true"></i><p> Reading Books</p>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div id="contact">
+            <h3>Contact Me</h3>
+            <ul>
+                <li><a href="https://twitter.com/explore"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://github.com/irshadali97"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/irshad-ali-967978191/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://myaccount.google.com/personal-info?gar=1"><i class="fa fa-envelope" aria-hidden="true"></a></i>
+                </li>
+            </ul>
+            <div class="phone"><i class="fa fa-phone-square" aria-hidden="true"></i>9686313344</div>
+        </div>
+        <div class="last">
+            <i class="fa fa-copyright" aria-hidden="true"></i>2020-21 All rights reserved
+
+        </div>
+    </footer>
+    
+</body>
+</html>
