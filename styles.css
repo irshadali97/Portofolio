@@ -26,12 +26,13 @@ header {
     width: 30%;
     height: fit-content;
     left: -30%;
-    background-color: #002651;
+    background-color: black;
     
 }
 
 #sidebar li {
     color: white;
+    list-style: none;
     font-size: 22px;
     padding: 15px;
     border-bottom: 1px solid grey;
