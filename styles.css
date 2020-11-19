@@ -67,6 +67,8 @@ header {
 }
 .image {
     margin: 40px auto;
+    display: flex;
+    justify-content: center;
 }
 .image img {
     border-radius: 50%;
